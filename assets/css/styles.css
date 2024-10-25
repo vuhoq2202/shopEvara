@@ -207,11 +207,19 @@
   }
 
   .nav__logo-img{
+<<<<<<< HEAD
     width: 120px;
   }
 
   .nav__menu{
     flex-grow: 1;
+=======
+    width: 150px;
+  }
+
+  .nav__menu{
+    width: 100%;
+>>>>>>> origin/master
     margin-left: 2.5rem;
   }
 
@@ -251,7 +259,11 @@
   }
 
   .header__action-btn img{
+<<<<<<< HEAD
     width: 24px;
+=======
+    width: 30px;
+>>>>>>> origin/master
   }
 
   .header__action-btn .count{
@@ -285,7 +297,11 @@
   }
 
   .home__subtitle{
+<<<<<<< HEAD
     font-family: var(--second-font);
+=======
+    font-family: var(--second-color);
+>>>>>>> origin/master
     font-weight: var(--weight-600);
     margin-bottom: 1rem;
     display: block;
@@ -330,12 +346,15 @@
     background-color: transparent;
     color: var(--first-color);
   }
+<<<<<<< HEAD
 
   .btn--md{
     font-family: var(--body-font);
     height: 45px;
     line-height: 42px;
   }
+=======
+>>>>>>> origin/master
   /*=============== CATEGORIES ===============*/
   .categories {
     overflow: hidden;
@@ -597,6 +616,7 @@
   }
 
   /*=============== DEALS ===============*/
+<<<<<<< HEAD
   .deals__container{
     grid-template-columns: repeat(2, 1fr);
   }
@@ -876,6 +896,16 @@
     color: var(--text-color-light);
     font-size: var(--small-font-size);
   }
+=======
+
+  /*=============== NEW ARRIVALS ===============*/
+
+  /*=============== SHOWCASE ===============*/
+
+  /*=============== NEWSLETTER ===============*/
+
+  /*=============== FOOTER ===============*/
+>>>>>>> origin/master
 
   /*=============== BREADCRUMBS ===============*/
 

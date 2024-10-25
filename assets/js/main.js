@@ -28,13 +28,18 @@ var swiperCategories = new Swiper(".categories__container", {
           spaceBetween: 40,
         },
         1400: {
+<<<<<<< HEAD
           slidesPerView: 6,
+=======
+          slidesPerView: 5,
+>>>>>>> origin/master
           spaceBetween: 24,
         },
       },
   });
 
 /*=============== SWIPER PRODUCTS ===============*/
+<<<<<<< HEAD
 var swiperProducts = new Swiper(".new__container", {
   spaceBetween: 24,
   loop: true,
@@ -59,6 +64,8 @@ var swiperProducts = new Swiper(".new__container", {
       },
     },
 });
+=======
+>>>>>>> origin/master
 
 /*=============== PRODUCTS TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
@@ -76,7 +83,12 @@ const tabs = document.querySelectorAll('[data-target]'),
       tabs.forEach((tab) =>{
         tab.classList.remove('active-tab');
       });
+<<<<<<< HEAD
 
       tab.classList.add('active-tab');
     });
+=======
+    });
+
+>>>>>>> origin/master
   });
