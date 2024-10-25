@@ -178,13 +178,13 @@
       <!--=============== PRODUCTS ===============-->
       <section class="products section container">
         <div class="tab__btns">
-          <span class="tab__btn active-tab">Featured</span>
-          <span class="tab__btn">Popular</span>
-          <span class="tab__btn">New added</span>
+          <span class="tab__btn active-tab" data-target="#featured">Featured</span>
+          <span class="tab__btn" data-target="#popular">Popular</span>
+          <span class="tab__btn" data-target="#new-added">New added</span>
         </div>
 
         <div class="tab__items">
-          <div class="tab__item active-tab">
+          <div class="tab__item active-tab" content id="featured">
             <div class="products__container grid">
               <div class="product__item">
                 <div class="product__banner">
@@ -570,7 +570,7 @@
             </div>
           </div>
 
-          <div class="tab__item">
+          <div class="tab__item" content id="popular">
             <div class="products__container grid">
               <div class="product__item">
                 <div class="product__banner">
@@ -956,7 +956,7 @@
             </div>
           </div>
 
-          <div class="tab__item">
+          <div class="tab__item" content id="new-added">
             <div class="products__container grid">
               <div class="product__item">
                 <div class="product__banner">
