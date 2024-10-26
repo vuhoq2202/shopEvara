@@ -29,10 +29,14 @@ var swiperCategories = new Swiper(".categories__container", {
         },
         1400: {
 <<<<<<< HEAD
+<<<<<<< HEAD
           slidesPerView: 6,
 =======
           slidesPerView: 5,
 >>>>>>> origin/master
+=======
+          slidesPerView: 6,
+>>>>>>> 56bccc6 (update-new)
           spaceBetween: 24,
         },
       },
@@ -40,6 +44,9 @@ var swiperCategories = new Swiper(".categories__container", {
 
 /*=============== SWIPER PRODUCTS ===============*/
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 56bccc6 (update-new)
 var swiperProducts = new Swiper(".new__container", {
   spaceBetween: 24,
   loop: true,
@@ -64,8 +71,11 @@ var swiperProducts = new Swiper(".new__container", {
       },
     },
 });
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> 56bccc6 (update-new)
 
 /*=============== PRODUCTS TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
@@ -84,6 +94,7 @@ const tabs = document.querySelectorAll('[data-target]'),
         tab.classList.remove('active-tab');
       });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
       tab.classList.add('active-tab');
     });
@@ -91,4 +102,9 @@ const tabs = document.querySelectorAll('[data-target]'),
     });
 
 >>>>>>> origin/master
+=======
+
+      tab.classList.add('active-tab');
+    });
+>>>>>>> 56bccc6 (update-new)
   });
